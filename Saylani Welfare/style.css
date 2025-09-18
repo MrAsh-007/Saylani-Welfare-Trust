@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins-Regular;
 }
 @font-face {
     font-family: Poppins-Regular;
@@ -11,30 +12,32 @@
     height: 52px;
     width: 100%;
     background-color: #eeeeee;
-    padding: 8px 24px;
-}
-.container {
-    height: 36px;
-    width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 8px 24px;
+}
+.topbar-container {
+    height: 36px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .topbar-p {
-    height: 18px;
-    width: 216px;
+    height: 30px;
+    width: 220px;
     color: #666666;
     font-size: 12px;
     font-weight: 600;
     font-family: Poppins-Regular;
-    position: absolute;
-    top: 19px;
-    left: 50px;
+    display: flex;
+    align-items: center;
 }
 .flags {
+    width: 200px;
+    margin-right: 1000px;
     display: flex;
-    
+    justify-content: space-between;
 }
 .uk-flag {
     height: 30px;
@@ -59,4 +62,110 @@
     width: 30px;
     background-size: cover;
     background-image: url(Images/turkey-flag.png);
+}
+.lang {
+    height: 32px;
+    width: 80px;
+    background-color: white;
+    border: 0.1px solid #d9d9d9;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 2px 0 #0000001a;
+    position: sticky;
+    top: 0;
+}
+.nav-container {
+    height: 55px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    height: 55px;
+    width: 200px;
+    background-image: url(Images/saylani-logo.png);
+    background-size: cover;
+}
+.list {
+    height: 55px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.list1 {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-grow: 4;
+    color: #666666;
+    font-size: 14px;
+}
+.list2 {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-grow: 1;
+    margin-left: 15px;
+    color: #8dc63f;
+    font-size: 14px;
+}
+.button1 {
+    height: 32px;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: #3b82f6;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    margin-right: 10px;
+}
+.button2 {
+    height: 32px;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: #3b82f6;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+}
+.main-container {
+    height: 2000px;
+    width: 100%;
+}
+.hero-section {
+    height: 500px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    height: 430px;
+    width: 1248px;
+    background-image: url(Images/hero-background.png);
+    background-size: cover;
+    display: flex;
+    
 }
