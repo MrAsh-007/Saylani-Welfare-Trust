@@ -35,7 +35,7 @@
 }
 .flags {
     width: 200px;
-    margin-right: 1000px;
+    margin-right: 850px;
     display: flex;
     justify-content: space-between;
 }
@@ -162,10 +162,76 @@
 }
 
 .hero-container {
-    height: 430px;
-    width: 1248px;
+    height: 550px;
+    width: 1395px;
+    margin-top: 80px;
     background-image: url(Images/hero-background.png);
-    background-size: cover;
+    background-size: contain;
     display: flex;
-    
+}
+.herobox1 {
+    height: 500px;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.first-txt {
+    font-size: 38px;
+    font-weight: 600;
+    color: #000000d9;
+}
+.first-p {
+    height: 160px;
+    width: 680px;
+    line-height: 45px;
+}
+.green-txt {
+    color: #8dc63f;
+}
+.second-txt {
+    color: #000000d9;
+    font-size: 24px;
+    font-weight: 600;
+}
+.second-p {
+    margin-bottom: 20px;
+}
+.blue-txt {
+    color: #0d6db7;
+}
+.third-txt {
+    color: #000000d0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.third-p {
+    height: 50px;
+    width: 700px;
+}
+.hero-button {
+    color: #00000091;
+    height: 55px;
+    width: 210px;
+    font-size: 14px;
+    font-weight: 100;
+    border: 1px solid #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-arrow {
+    padding-left: 15px;
+}
+.herobox2 {
+    height: 500px;
+    width: 50%;
+    margin-left: 250px;
+}
+.hero-img-container {
+    background-image: url(Images/hero-img.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding-right: 300px;
 }
